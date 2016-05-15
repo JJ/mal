@@ -23,4 +23,10 @@ Recopilando enlaces para comentarlos más adelante
   y
   [el informe entero](http://go.linuxfoundation.org/download-2016-open-source-jobs-report) 
 
+
 * [Teaching C](http://blog.regehr.org/archives/1393)
+
+* [Lecciones de una desarrolladora multi-plataforma](https://opensource.com/business/16/5/oscon-interview-andreia-gaita?sc_cid=70160000000q68EAAQ)
+
+* [Lecciones desde DuckDuckGo](https://opensource.com/business/16/5/duckduckgo?sc_cid=70160000000q68EAAQ)
+
