@@ -23,3 +23,4 @@ Recopilando enlaces para comentarlos más adelante
   y
   [el informe entero](http://go.linuxfoundation.org/download-2016-open-source-jobs-report) 
 
+* [Teaching C](http://blog.regehr.org/archives/1393)
