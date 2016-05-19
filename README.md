@@ -30,3 +30,5 @@ Recopilando enlaces para comentarlos más adelante
 
 * [Lecciones desde DuckDuckGo](https://opensource.com/business/16/5/duckduckgo?sc_cid=70160000000q68EAAQ)
 
+*
+  [Using GitHub in software engineering classes](https://speakerdeck.com/alexeyza/icse16-student-experiences-using-github-in-software-engineering-courses) 
