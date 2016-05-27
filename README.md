@@ -32,3 +32,6 @@ Recopilando enlaces para comentarlos más adelante
 
 *
   [Using GitHub in software engineering classes](https://speakerdeck.com/alexeyza/icse16-student-experiences-using-github-in-software-engineering-courses) 
+
+*
+  [How to raise a data scientist](http://www.datasciencecentral.com/profiles/blogs/how-to-raise-a-data-scientist-in-the-xbox-age) 
