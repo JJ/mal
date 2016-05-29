@@ -35,3 +35,7 @@ Recopilando enlaces para comentarlos más adelante
 
 *
   [How to raise a data scientist](http://www.datasciencecentral.com/profiles/blogs/how-to-raise-a-data-scientist-in-the-xbox-age) 
+
+*
+  [I don't know how to start programming](https://medium.com/@vaibhavtulsyan/i-dont-know-how-to-start-programming-614f5eeb31e8#.vugk90y3r),
+  on myths on learning how to program. 
