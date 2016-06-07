@@ -39,3 +39,6 @@ Recopilando enlaces para comentarlos más adelante
 *
   [I don't know how to start programming](https://medium.com/@vaibhavtulsyan/i-dont-know-how-to-start-programming-614f5eeb31e8#.vugk90y3r),
   on myths on learning how to program. 
+
+*
+  [How programming supports Math class](https://www.edsurge.com/news/2016-05-31-how-programming-supports-math-class-not-the-other-way-around) 
