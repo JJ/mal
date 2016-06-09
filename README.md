@@ -42,3 +42,7 @@ Recopilando enlaces para comentarlos más adelante
 
 *
   [How programming supports Math class](https://www.edsurge.com/news/2016-05-31-how-programming-supports-math-class-not-the-other-way-around) 
+
+*
+  [La entrevista técnica está rota](https://medium.com/@CODE2040/real-talk-the-technical-interview-is-broken-b84b8375dccb#.n4x9c1vz8)
+  y cómo esto se relaciona con la enseñanza. 
