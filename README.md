@@ -48,3 +48,5 @@ Recopilando enlaces para comentarlos más adelante
   y cómo esto se relaciona con la enseñanza. 
 
 * [Universidades más valoradas en informática](http://www.elmundo.es/sociedad/2016/06/14/575ebec722601d8a678b45e3.html)
+
+*[5 Principles of programming languages for learners](http://cacm.acm.org/blogs/blog-cacm/203554-five-principles-for-programming-languages-for-learners/fulltext#.V2AZWeD72WA.twitter)
