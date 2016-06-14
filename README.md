@@ -46,3 +46,5 @@ Recopilando enlaces para comentarlos más adelante
 *
   [La entrevista técnica está rota](https://medium.com/@CODE2040/real-talk-the-technical-interview-is-broken-b84b8375dccb#.n4x9c1vz8)
   y cómo esto se relaciona con la enseñanza. 
+
+* [Universidades más valoradas en informática](http://www.elmundo.es/sociedad/2016/06/14/575ebec722601d8a678b45e3.html)
