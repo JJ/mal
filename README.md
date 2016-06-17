@@ -50,3 +50,5 @@ Recopilando enlaces para comentarlos más adelante
 * [Universidades más valoradas en informática](http://www.elmundo.es/sociedad/2016/06/14/575ebec722601d8a678b45e3.html)
 
 *[5 Principles of programming languages for learners](http://cacm.acm.org/blogs/blog-cacm/203554-five-principles-for-programming-languages-for-learners/fulltext#.V2AZWeD72WA.twitter)
+
+*[Mastering programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414?utm_content=buffer0c760&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
