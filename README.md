@@ -55,3 +55,7 @@ Recopilando enlaces para comentarlos más adelante
 
 *[Sobre la carrera de informática](http://www.xataka.com/otros/lo-que-se-espera-un-estudiante-de-1o-de-informatica-y-lo-que-se-va-a-encontrar-en-realidad),
  lo interesante está en los comentarios. 
+
+* [Coding is over](https://medium.com/@loorinm/coding-is-over-6d653abe8da8#.dw6uq7ojv), sobre la importancia de la ingeniería. 
+
+*[One does not simply learn to code](https://medium.freecodecamp.com/one-does-not-simply-learn-to-code-f25bacdc5b62#.qp743vsqp)
