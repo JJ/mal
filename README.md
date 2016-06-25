@@ -59,3 +59,5 @@ Recopilando enlaces para comentarlos más adelante
 * [Coding is over](https://medium.com/@loorinm/coding-is-over-6d653abe8da8#.dw6uq7ojv), sobre la importancia de la ingeniería. 
 
 *[One does not simply learn to code](https://medium.freecodecamp.com/one-does-not-simply-learn-to-code-f25bacdc5b62#.qp743vsqp)
+
+*[The joy of experimentation](http://blog.cloud66.com/the-joy-of-experimentation-and-playfulness/?utm_content=buffer29603&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
