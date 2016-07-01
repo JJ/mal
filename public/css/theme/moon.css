@@ -2,8 +2,7 @@
  * Solarized Dark theme for reveal.js.
  * Author: Achim Staebler
  */
-@import url(../../lib/font/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -49,7 +48,6 @@ body {
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
