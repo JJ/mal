@@ -51,26 +51,28 @@
 	<h1 class='bkg'>Pero...</h1>
       </section>
 
-	<section>
-	  <div class="poll" data-poll-name="asignatura"></div>
-	</section>
+      <section>
+	<div class="poll" data-poll-name="asignatura"></div>
+      </section>
 
-			<section>
-				<div class="poll" data-poll-name="TFG"></div>
-			</section>
+      
+      <section>
+	<div class="poll" data-poll-name="TFG"></div>
+      </section>
 
-			<section>
+			<section id='asignatura_slide'>
 				<canvas id="asignatura_chart"></canvas>
 			</section>
 
-			<section>
+			<section id='TFG_slide'>
 				<canvas id="TFG_chart"></canvas>
 			</section>
 
 			<section>
 			  <h2>Créditos</h2>
-			  <ul><li class='credits'><a href='https://www.flickr.com/photos/chmoss/8397485048/'>Cara tapada de Clive Moss</a></li>
-
+			  <ul>
+			    <li class='credits'><a href='https://www.flickr.com/photos/chmoss/8397485048/'>Cara tapada de Clive Moss</a></li>
+			    
 			    <li class='credits'><a href='https://www.flickr.com/photos/mezzle/6080736879/'>Stallman de Martin Meredith</a></li>
 
 			  </ul>
@@ -107,21 +109,15 @@
 		// Código para presentar gráficos
 		var slide_re = /\#\/(\d+)/;
 		Reveal.addEventListener('slidechanged', function(event) {
-			if (typeof event.previousSlide !== 'undefined') {
-				var base_URI = event.previousSlide.baseURI;
-
-				console.log(base_URI);
-				var last_slide = slide_re.exec(base_URI)[1];
-				console.log("Esta " + last_slide);
-				if (last_slide === '2') {
-					console.log(base_URI);
-					plot_chart('asignatura', 'asignatura_chart');
-				}
-				if (last_slide === '3') {
-					console.log(base_URI);
-					plot_chart('TFG', 'TFG_chart');
-				}
-			}
+		  var this_slide_id = event.currentSlide.id;
+		  if (this_slide_id === 'asignatura_slide') {
+		    console.log(event.currentSlide);
+		    plot_chart('asignatura', 'asignatura_chart');
+		  }
+		  if ( this_slide_id === 'TFG_slide') {
+		    console.log(event.currentSlide);
+		    plot_chart('TFG', 'TFG_chart');
+		  }
 		});
 	</script>
 </body>
