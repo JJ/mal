@@ -61,3 +61,35 @@ Recopilando enlaces para comentarlos más adelante
 *[One does not simply learn to code](https://medium.freecodecamp.com/one-does-not-simply-learn-to-code-f25bacdc5b62#.qp743vsqp)
 
 *[The joy of experimentation](http://blog.cloud66.com/the-joy-of-experimentation-and-playfulness/?utm_content=buffer29603&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+*[Spain running out of workers](http://www.bloomberg.com/news/articles/2016-07-01/spain-is-running-out-of-workers-with-almost-5-million-unemployed):
+
+>high-school dropout rate that is twice the European average.
+
+*[Gratis mejor que de pago](https://medium.freecodecamp.com/why-i-spent-110k-to-decide-not-to-go-to-school-7402e78c89ee#.uby3i6ts2)
+
+*[Open Source Society University](https://github.com/open-source-society/computer-science)
+
+*[Introducción a la informática, Harvard](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) 
+
+*[El nuevo currículum de la ACM](https://www.acm.org/education/CS2013-final-report.pdf) 
+
+> Computer science, unlike many technical disciplines, does not have a well-described list of
+> topics that appear in virtually all introductory courses
+
+>The vast majority of introductory courses are programming-focused, in which students learn
+> about concepts in computer science (e.g., abstraction, decomposition, etc.) through the explicit
+> tasks of learning a given programming language and building software artifacts. A programming
+> focus can provide early training in this crucial skill for computer science majors and help elevate
+> students with different backgrounds in computing to a more equal footing.
+
+>it is important that students do not
+> perceive computer science as only learning the specifics of particular programming languages.
+
+> Some introductory course sequences
+> choose to provide a presentation of alternative programming paradigms, such as scripting vs.
+> procedural programming or functional vs. object-oriented programming, to give students a
+> greater appreciation of the diverse perspectives in programming, to avoid language-feature
+> fixation, and to disabuse them of the notion that there is a single “correct” or “best”
+> programming language.
+
