@@ -102,7 +102,7 @@ $(function() {
 		console.log(err);
             } else {
 		for ( var i in res ) {
-                    this_div.append("<p>" + res[i].question + "</p>");
+                    this_div.append("<h2>" + res[i].question + "</h2>");
                     for ( var j in res[i].options) {
 			this_div.append("<button round big type='poll' class='submit width-2' data-question='"
 					+ i + "' data-poll='"+name+"' id='" + j + "' value='" + res[i].id
