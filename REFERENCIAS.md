@@ -95,3 +95,5 @@ Recopilando enlaces para comentarlos más adelante
 
 *[Qué pasa si todo el mundo sabe programar](https://www.linkedin.com/pulse/what-happens-when-anyone-can-code-were-find-out-douglas-rushkoff?utm_content=buffer59fe7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
+
+*[Nuevas estructuras de datos puramente funcionales](http://cstheory.stackexchange.com/questions/1539/whats-new-in-purely-functional-data-structures-since-okasaki)
