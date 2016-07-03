@@ -93,3 +93,5 @@ Recopilando enlaces para comentarlos más adelante
 > fixation, and to disabuse them of the notion that there is a single “correct” or “best”
 > programming language.
 
+*[Qué pasa si todo el mundo sabe programar](https://www.linkedin.com/pulse/what-happens-when-anyone-can-code-were-find-out-douglas-rushkoff?utm_content=buffer59fe7&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
