@@ -308,19 +308,28 @@ alt='Es tu culpa'>
 
 	</section>
 
-	<section data-background='https://farm6.staticflickr.com/5349/7080530893_ccb10741ce_h_d.jpg' alt='Cruce Shibuya'><h1>Poca transversalidad</h1></section>
+	<section data-background='https://farm6.staticflickr.com/5349/7080530893_ccb10741ce_h_d.jpg' alt='Cruce Shibuya'><h1>¿Contenidos transversales?</h1></section>
 	<section><h1>Poca adaptabilidad</h1></section>
 
 	<section data-background=''>
 	  <h1>Énfasis en la sintaxis</h1>
 	</section>
 
+	<section>
+	  <div class="poll" data-poll-name="contenidos"></div>
+	</section>
+	
       </section>
 
       <!-- Transición -->
       <section data-background='https://farm5.staticflickr.com/4101/4906280283_e2d2876ddc_b_d.jpg'>
 	<h1 class='bkg'>No se vayan todavía</h1>
       </section>
+
+      <section id='contenidos_slide'>
+	<canvas id="contenidos_chart"></canvas>
+      </section>
+
 
       <!-- Propuestas de cambio -->
       <section>
@@ -461,7 +470,12 @@ alt='Es tu culpa'>
 		  if ( this_slide_id === 'TFG_slide') {
 		    console.log(event.currentSlide);
 		    plot_chart('TFG', 'TFG_chart');
+		}
+		if ( this_slide_id === 'contenidos_slide') {
+		    console.log(event.currentSlide);
+		    plot_chart('contenidos', 'contenidos_chart');
 		  }
+
 		});
 	</script>
 </body>

@@ -18,6 +18,10 @@ module.exports = {
         "TFG": [{
             "q": "¿Alguna vez has pensado que un alumno es incapaz de hacer un TFG de cierta entidad?",
             "a": ["Sí", "No"]
+        }],
+        "contenidos": [{
+            "q": "De lo anterior,¿cuanto sucede en tu institución?",
+            "a": ["Todo", "Nada","Algunos"]
         }]
     }
 };
