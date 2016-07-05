@@ -1,4 +1,4 @@
-.bkg { 
+section[data-background] h1 { 
        background-color:rgba(0,43,54,0.7);
        padding: 50px;
        margin: 20px;
