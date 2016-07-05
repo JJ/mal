@@ -1,9 +1,12 @@
-# Polleitor
+# Lo estamos haciendo mal: una propuesta de cambio en la enseñanza universitaria de la informática
+
 _Version 0.3_
+
 [![Build Status](https://travis-ci.org/oslugr/polleitor.svg?branch=master)](https://travis-ci.org/oslugr/polleitor)
 [![Coverage Status](https://coveralls.io/repos/github/oslugr/polleitor/badge.svg?branch=master)](https://coveralls.io/github/oslugr/polleitor?branch=master)
 
-Sistema cliente-servidor para crear widgets de encuestas.
+La charla es una 
+*appresentación* que usa Polleitor, un Sistema cliente-servidor para crear widgets de encuestas. Durante un tiempo, estará desplegada en [Heroku en jenui06.herokuapp.com](http://jenui06.herokuapp.com). 
 
 La parte servidor usa LokiDB para almacenar las encuestas y
 resultados y funciona con REST, la parte cliente JavaScript para
@@ -29,7 +32,7 @@ Iniciar servidor:
 npm start
 ```
 
-Menú Principal de Polleitor en http://localhost:3000 y listo.
+Menú Principal de Polleitor en http://localhost:3000 y listo. 
 
 Si usas [Heroku](http://heroku.com), cambia `repository` en el fichero
 de configuración `app.json` y
