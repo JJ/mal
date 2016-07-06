@@ -1,4 +1,4 @@
-# Lo estamos haciendo mal: una propuesta de cambio en la enseñanza universitaria de la informática
+# Lo estamos haciendo mal: una llamada al debate sobre el cambio en la enseñanza universitaria de la informática
 
 _Version 0.3_
 
@@ -6,7 +6,7 @@ _Version 0.3_
 [![Coverage Status](https://coveralls.io/repos/github/oslugr/polleitor/badge.svg?branch=master)](https://coveralls.io/github/oslugr/polleitor?branch=master)
 
 La charla es una 
-*appresentación* que usa Polleitor, un Sistema cliente-servidor para crear widgets de encuestas. Durante un tiempo, estará desplegada en [Heroku en jenui06.herokuapp.com](http://jenui06.herokuapp.com). 
+*appresentación* que usa Polleitor, un Sistema cliente-servidor para crear widgets de encuestas. Durante un tiempo, estará desplegada en [Heroku en jenui06.herokuapp.com](http://jenui06.herokuapp.com). Las [referencias para esta presentación están en este documento](REFERENCIAS.md).
 
 La parte servidor usa LokiDB para almacenar las encuestas y
 resultados y funciona con REST, la parte cliente JavaScript para

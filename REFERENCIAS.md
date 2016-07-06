@@ -99,3 +99,5 @@ Recopilando enlaces para comentarlos más adelante
 *[Nuevas estructuras de datos puramente funcionales](http://cstheory.stackexchange.com/questions/1539/whats-new-in-purely-functional-data-structures-since-okasaki)
 
 *[Nuevas universidades corporativas](http://www.lavanguardia.com/tecnologia/20160703/402899689142/universidad-facebook-no-ensenan-trabajo.html)
+
+*[La universidad se adapta al mercado laboral](http://www.expansion.com/emprendedores-empleo/desarrollo-carrera/2016/07/05/577bdd21e5fdeaa54b8b45af.html)
