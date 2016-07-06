@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>JENUI06: Charla plenaria &quot;Lo estamos haciendo mal&quot; by JJ</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">JENUI06: Charla plenaria &quot;Lo estamos haciendo mal&quot;</h1>
+        <p class="header">Enseñanza universitaria: lo estamos haciendo mal</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/JJ/mal/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/JJ/mal/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/JJ/mal">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/JJ">JJ</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="lo-estamos-haciendo-mal-una-llamada-al-debate-sobre-el-cambio-en-la-enseñanza-universitaria-de-la-informática" class="anchor" href="#lo-estamos-haciendo-mal-una-llamada-al-debate-sobre-el-cambio-en-la-ense%C3%B1anza-universitaria-de-la-inform%C3%A1tica" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lo estamos haciendo mal: una llamada al debate sobre el cambio en la enseñanza universitaria de la informática</h1>
+
+<p><em>Version 0.3</em></p>
+
+<p><a href="https://travis-ci.org/oslugr/polleitor"><img src="https://travis-ci.org/oslugr/polleitor.svg?branch=master" alt="Build Status"></a>
+<a href="https://coveralls.io/github/oslugr/polleitor?branch=master"><img src="https://coveralls.io/repos/github/oslugr/polleitor/badge.svg?branch=master" alt="Coverage Status"></a></p>
+
+<h2>
+<a id="charla-lo-estamos-haciendo-mal" class="anchor" href="#charla-lo-estamos-haciendo-mal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Charla: Lo estamos haciendo mal</h2>
+
+<p>La charla es una 
+<em>appresentación</em> que usa Polleitor, un Sistema cliente-servidor para crear widgets de encuestas. Durante un tiempo, estará desplegada en <a href="http://jenui06.herokuapp.com">Heroku en jenui06.herokuapp.com</a>. Las <a href="REFERENCIAS.md">referencias para esta presentación están en este documento</a>.</p>
+
+<p>Los fuentes de la charla, con licencia CC, y los del software, con licencia MIT, están en <a href="http://github.com/JJ/mal">este repo de GitHub</a>. </p>
+
+<h2>
+<a id="aplicación-polleitor" class="anchor" href="#aplicaci%C3%B3n-polleitor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Aplicación: polleitor</h2>
+
+<p>La parte servidor usa LokiDB para almacenar las encuestas y
+resultados y funciona con REST, la parte cliente JavaScript para
+configurar las encuestas y enviar los resultados.</p>
+
+<p>La configuración se hace en el servidor y en él se almacenan los
+resultados.</p>
+
+<h2>
+<a id="instalación" class="anchor" href="#instalaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instalación</h2>
+
+<p>Tras clonar de este repo:</p>
+
+<div class="highlight highlight-source-shell"><pre>npm install</pre></div>
+
+<p>Ejecutar Tests (opcional):</p>
+
+<div class="highlight highlight-source-shell"><pre>npm <span class="pl-c1">test</span></pre></div>
+
+<p>Iniciar servidor:</p>
+
+<div class="highlight highlight-source-shell"><pre>npm start</pre></div>
+
+<p>Menú Principal de Polleitor en http://localhost:3000 y listo. </p>
+
+<p>Si usas <a href="http://heroku.com">Heroku</a>, cambia <code>repository</code> en el fichero
+de configuración <code>app.json</code> y</p>
+
+<pre><code>heroku login
+heroku git:remote -a mi-proyecto-en-heroku
+git push heroku master
+</code></pre>
+
+<h2>
+<a id="api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+
+<p>Se accede al servicio mediante una API REST</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Método</strong></th>
+<th align="center"><strong>Ruta</strong></th>
+<th align="center"><strong>Descripción</strong></th>
+<th align="center"><strong>Resultado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">GET</td>
+<td align="center"><code>:poll</code></td>
+<td align="center">Devuelve las preguntas de una encuesta</td>
+<td align="center"><code>[{question,options,id}]</code></td>
+</tr>
+<tr>
+<td align="center">GET</td>
+<td align="center"><code>:poll/resultados</code></td>
+<td align="center">Resultados del poll</td>
+<td align="center"><code>[{question,options,id,answers}]</code></td>
+</tr>
+<tr>
+<td align="center">PUT</td>
+<td align="center"><code>:poll</code></td>
+<td align="center">Responde al poll [{id,answer}]</td>
+<td align="center"><code>{poll,updates,failedUpdates}</code></td>
+</tr>
+</tbody>
+</table>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
