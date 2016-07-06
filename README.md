@@ -5,9 +5,13 @@ _Version 0.3_
 [![Build Status](https://travis-ci.org/oslugr/polleitor.svg?branch=master)](https://travis-ci.org/oslugr/polleitor)
 [![Coverage Status](https://coveralls.io/repos/github/oslugr/polleitor/badge.svg?branch=master)](https://coveralls.io/github/oslugr/polleitor?branch=master)
 
+##Charla: Lo estamos haciendo mal
 La charla es una 
 *appresentación* que usa Polleitor, un Sistema cliente-servidor para crear widgets de encuestas. Durante un tiempo, estará desplegada en [Heroku en jenui06.herokuapp.com](http://jenui06.herokuapp.com). Las [referencias para esta presentación están en este documento](REFERENCIAS.md).
 
+Los fuentes de la charla, con licencia CC, y los del software, con licencia MIT, están en [este repo de GitHub](http://github.com/JJ/mal). 
+
+##Aplicación: polleitor
 La parte servidor usa LokiDB para almacenar las encuestas y
 resultados y funciona con REST, la parte cliente JavaScript para
 configurar las encuestas y enviar los resultados.
