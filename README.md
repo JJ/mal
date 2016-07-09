@@ -36,7 +36,9 @@ Iniciar servidor:
 npm start
 ```
 
-Menú Principal de Polleitor en http://localhost:3000 y listo. 
+De ahí, se accede http://localhost:3000 y listo. 
+
+### Desplegar en heroku
 
 Si usas [Heroku](http://heroku.com), cambia `repository` en el fichero
 de configuración `app.json` y
@@ -45,7 +47,14 @@ de configuración `app.json` y
 	heroku git:remote -a mi-proyecto-en-heroku
 	git push heroku master
 
+El problema con heroku es que no mantiene la aplicación en memoria de
+forma continua ni tampoco mantiene los ficheros, con lo que si quieres
+tener una encuesta que se ejecute durante un tiempo determinado no es
+la opción más adeduada.
 
+Una alternativa es guardar los resultados en los logs, para lo cual se
+puede usar un *addon* gratuito tal como
+[Papertrail](https://elements.heroku.com/addons/papertrail) o (Sumo Logic(https://elements.heroku.com/addons/sumologic)
 
 
 ## API
